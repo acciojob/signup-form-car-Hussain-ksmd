@@ -6,31 +6,32 @@
 <body>
    <form method = "POST">
     <h2> Signup Form </h2>
-    <label for = "name">Name*</label>
-    <input type = "text" id = "name" placeholder = "Enter your name">
+    <label for = "name">Name</label>
+    <input type = "text" id = "name" placeholder = "Enter your name" required>
     <br>
-    <label for = "email">Email*</label>
-    <input type = "text" id = "email" placeholder = "Enter your email">
+    <label for = "email">Email</label>
+    <input type = "text" id = "email" placeholder = "Enter your email" required>
     <br>
-    <label for = "gender">Gender*</label>
-    <input type = "radio" id = "gender" name = "gender" value = "male"> Male
-    <input type = "radio" id = "gender" name = "gender" value = "female"> Female
+    <label for = "gender">Gender</label>
+    <input type = "radio" id = "gender" name = "gender" value = "male" required> Male
+    <input type = "radio" id = "gender" name = "gender" value = "female" required> Female
     <br>
     <label for = "cars">Car Brands</label>
     <select id = "cars">
+        <option value = "car"> Select Car </option>
         <option value = "bmw"> BMW </option>
         <option value = "audi"> Audi </option>
         <option value = "mercedez"> Mercedez </option>
     </select>
     <br>
-    <label for = "age">Age*</label>
-    <input type = "text" id = "age" placeholder = "Enter your age">
+    <label for = "age">Age</label>
+    <input type = "text" id = "age" placeholder = "Enter your age" required>
     <br>
-    <label for = "dob">DOB*</label>
-    <input type = "text" id = "dob" placeholder = "Enter your date of birth">
+    <label for = "dob">DOB</label>
+    <input type = "date" id = "dob" placeholder = "Enter your date of birth" required>
     <br>
-    <label for = "password">Password*</label>
-    <input type = "text" id = "password" placeholder = "Enter your password">
+    <label for = "password">Password</label>
+    <input type = "text" id = "password" placeholder = "Enter your password" required>
     <br>
     <input type = "submit" id = "submit">
     </form>

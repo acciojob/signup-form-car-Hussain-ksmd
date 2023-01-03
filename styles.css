@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+body {
+	background-color: whitesmoke;
+	display:flex;
+}
+form {
+	margin: auto;
+}
+input {
+	margin-bottom: 10px;
+}
